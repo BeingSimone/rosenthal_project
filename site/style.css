@@ -1,6 +1,6 @@
 body {
   background-image: url('images/rosenthal-background-bw.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%
@@ -16,18 +16,58 @@ body {
 
 .background-overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
+  background-size: contain;
+  overflow: hidden;
   padding: 0 !important;
-  height: 1240px;
+  height: 2000px;
   width: 100%;
 }
 
-.rosenthal_project {
+.container {
   position: absolute;
-  top: 20%;
-  left: 33%;
+  top: 23%;
+  left: 21%;
+  text-align: center;
+}
+
+.rosenthal_project {
+  width: 50%;
+  position: fixed;
+  left: 25.5%;
+  top: 30%;
 }
 
 .rosental_title {
-  width: 150%;
+  width: 75%;
+}
+
+.growing-subtitle {
+  color: #c4da43;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 9px;
+  font-size: 3.5rem;
+
+}
+
+.growing-subtitle #car {
+  color: #c4da43;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+#car {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.background-overlay-bottom {
+  position: absolute;
+  background-color: #c4da43;
+  overflow: hidden;
+  padding: 0 !important;
+  bottom: 0;
+  height: 400px;
+  width: 100%;
 }
