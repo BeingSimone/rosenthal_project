@@ -1,0 +1,258 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville
+FamilyName:Baskerville
+StyleName:Regular
+MenuName:Baskerville
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Baskerville
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:48
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-Bold
+FamilyName:Baskerville
+StyleName:Bold
+MenuName:Baskerville
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Baskerville Bold
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:284
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville Bold
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-Italic
+FamilyName:Baskerville
+StyleName:Italic
+MenuName:Baskerville
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Baskerville Italic
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:520
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville Italic
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-BoldItalic
+FamilyName:Baskerville
+StyleName:Bold Italic
+MenuName:Baskerville
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Baskerville Bold Italic
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:772
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville Bold Italic
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-SemiBold
+FamilyName:Baskerville
+StyleName:SemiBold
+MenuName:Baskerville
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Baskerville SemiBold
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:1024
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville SemiBold
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-SemiBoldItalic
+FamilyName:Baskerville
+StyleName:SemiBold Italic
+MenuName:Baskerville
+StyleBits:1
+WeightClass:600
+WidthClass:5
+AngleClass:1
+FullName:Baskerville SemiBold Italic
+WritingScript:Roman
+OutlineFileName:\Baskerville.ttc
+TTCOffset:1260
+DataFormat:sfntData
+hasSVG:no
+FileLength:1330920
+FileModTime:1485957376
+NameArray:0,Mac,4,Baskerville SemiBold Italic
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBold
+FamilyName:Gotham Bold
+StyleName:Regular
+MenuName:Gotham Bold
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gotham Bold
+WritingScript:Roman
+OutlineFileName:\Gotham Bold Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:66028
+FileModTime:1419676042
+NameArray:0,Mac,4,Gotham Bold
+NameArray:0,Win,1,Gotham Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Book
+FamilyName:Gotham Book
+StyleName:Regular
+MenuName:Gotham Book
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham-Book
+WritingScript:Roman
+OutlineFileName:\Gotham Book Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:29500
+FileModTime:1419676042
+NameArray:0,Mac,4,Gotham-Book
+NameArray:0,Win,1,Gotham Book
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamLight
+FamilyName:GothamLight
+StyleName:Regular
+MenuName:GothamLight
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:GothamLight
+WritingScript:Roman
+OutlineFileName:\GothamLight Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:33576
+FileModTime:1419676044
+NameArray:0,Mac,4,GothamLight
+NameArray:0,Win,1,GothamLight
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1499775418
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamMedium
+FamilyName:Gotham Medium
+StyleName:Regular
+MenuName:Gotham Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham Medium
+WritingScript:Roman
+OutlineFileName:\ufonts.com_gotham-medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:66488
+FileModTime:1500568986
+NameArray:0,Mac,4,Gotham Medium
+NameArray:0,Win,1,Gotham Medium
+%EndFont
+
