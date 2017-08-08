@@ -117,5 +117,26 @@ body {
 }
 
 .twelve-september {
-    font-weight: 400;
+  font-weight: 400;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 13%;
+  width: 100%;
+}
+
+.adco-logo {
+  position: relative;
+  left: 83%;
+  bottom: 4%;
+  width: 5%;
+}
+
+.council-logo {
+  position: relative;
+  left: 70%;
+  bottom: -9%;
+  width: 6%;
 }
