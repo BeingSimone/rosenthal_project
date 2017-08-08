@@ -1,23 +1,19 @@
 body {
-  /*background-size: 100%;*/
-  /*background-repeat: no-repeat;*/
-  /*overflow: hidden;*/
-  /*width: 100%;*/
-  /*height: 35%;*/
   background-color: #c4da43;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
-  background-image: url('images/rosenthal-background-bw.jpg');
+  background-image: url('images/rosenthal-bw-cropped.jpg');
   background-size: cover;
   width: 100%;
-  height: 72vh;
+  height: 65vh;
 }
 
 .header-overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 72vh;
+  height: 65vh;
   width: 100%;
 }
 
@@ -25,25 +21,23 @@ body {
   width: 50%;
   position: absolute;
   left: 25.5%;
-  top: 23%;
+  top: 19%;
 }
 
 .header-subtitle #car {
   color: #c4da43;
-
   font-style: italic;
 }
 
 .header-subtitle {
   position: relative;
   top: 50%;
-  left: 17%;
   color: #c4da43;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  letter-spacing: 9px;
+  letter-spacing: 8px;
   font-size: 5vh;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #car {
@@ -53,120 +47,75 @@ body {
   letter-spacing: normal;
 }
 
-
-/*body {
-  background-image: url('images/rosenthal-background-bw.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  width: 100%
-}
-
-.background-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  padding: 0 !important;
-  height: 3000px;
-  width: 100%;
-}
-
-.row .col {
-  float: left;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-  min-height: 1px;
-}
-
-.rosenthal_project {
-  width: 50%;
-  position: fixed;
-  left: 25.5%;
-  top: 30%;
-}
-
-.rosental_title {
-  position: absolute;
-  margin: 0 auto;
-  left: 10%;
-  top: -42%;
-  width: 80%;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.container {
-  position: absolute;
-  top: 45%;
-  left: 10%;
-  width: 80%;
-  height: 30%;
+.black-box {
   background-color: #000;
-  z-index: 1;
+  margin-left: 10%;
+  height: 37vh;
+  width: 80%;
+  margin-top: -13%;
 }
 
-.growing-subtitle {
+.black-box-subtitle {
+  position: relative;
+  left: 5%;
   color: #c4da43;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: 9px;
-  font-size: 4rem;
+  font-size: 2.5vh;
+  font-weight: 300;
+  letter-spacing: 0.5vh;
+  line-height: 3.5vh;
+  text-align: justify;
+  padding-top: 1vh;
+  width: 51%;
 }
 
-.growing-subtitle #car {
+.green-line {
+  position: relative;
+  left: 5%;
+  width: 10vh;
+  border-top: 0.2vh solid #c4da43;
+  padding-top: 1.5vh;
+}
+
+.p-green {
+  position: relative;
+  left: 5%;
   color: #c4da43;
-  font-size: 3.8rem;
-  font-style: italic;
-}
-
-#car {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  letter-spacing: normal;
-}
-
-/*.container-two {
-  position: absolute;
-  top: 45%;
-  left: 14%;
-  width: 100%;
-  z-index: 1;
-}
-
-.transforming.p-green {
-  color: #c4da43;
+  font-size: 1.5vh;
+  font-weight: 100;
+  letter-spacing: 0.3vh;
+  line-height: 2vh;
+  padding-top: 3vh;
+  width: 72%;
 }
 
 .p-white {
-  color: #ffff;
-}
-
-.background-overlay-bottom {
-  position: absolute;
-  bottom: 0;
-  background-color: #c4da43;
-  padding: 0 !important;
-  margin: 0;
-  height: 33%;
+  position: relative;
+  left: 5%;
+  color: #fff;
+  font-size: 1.5vh;
+  font-weight: 100;
+  letter-spacing: 0.3vh;
+  line-height: 2vh;
+  padding-top: 3vh;
   width: 100%;
 }
 
-.background-overlay-bottom {
-  position: absolute;
-  bottom: 0;
-  background-color: #c4da43;
-  padding: 0 !important;
-  margin: 0;
-  height: 33%;
-  width: 100%;
+.white-border-box {
+  color: #fff;
+  border: 0.5vh solid #fff;
+  position: relative;
+  top: -74%;
+  left: 70%;
+  width: 34%;
+  height: 41%;
+  font-size: 2vh;
+  font-weight: 100;
+  letter-spacing: 0.3vh;
+  line-height: 3vh;
+  text-align: center;
+  padding-top: 3vh;
 }
 
-/*.black-box {
-  z-index: 0;
-  background-color: #000;
-  overflow: hidden;
-  padding: 0 !important;
-  bottom: 0;
-  height: 400px;
-  width: 75%;
-}*/
+.twelve-september {
+    font-weight: 400;
+}
