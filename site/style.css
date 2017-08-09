@@ -127,16 +127,166 @@ body {
   width: 100%;
 }
 
+.contacts-email {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+  color: #000;
+  font-size: 1.5vh;
+  font-weight: 200;
+  letter-spacing: 0.3vh;
+  line-height: 2vh;
+  padding-top: 3vh;
+  width: 72%;
+}
+
+.contacts-phone {
+  position: absolute;
+  bottom: 6%;
+  left: 45%;
+  color: #000;
+  font-size: 1.5vh;
+  font-weight: 200;
+  letter-spacing: 0.3vh;
+  line-height: 2vh;
+  padding-top: 3vh;
+  width: 72%;
+}
+
 .adco-logo {
   position: relative;
   left: 83%;
-  bottom: 4%;
+  bottom: 40%;
   width: 5%;
 }
 
 .council-logo {
   position: relative;
   left: 70%;
-  bottom: -9%;
+  bottom: 25%;
   width: 6%;
+}
+
+
+@media (max-width: 768px) {
+
+  .header {
+    background-size: cover;
+    width: 89vh;
+  }
+
+  .header-title {
+    width: 45vh;
+    position: relative;
+    left: 21vh;
+    top: 18vh;
+  }
+
+  .header-subtitle {
+    top: 21vh;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 3vh;
+    text-align: center;
+  }
+
+  #car {
+    font-size: 2.5vh;
+  }
+
+  .black-box {
+    position: absolute;
+    left: 2vh;
+    top: 50vh;
+    background-color: #000;
+    height: 57vh;
+    width: 70vh;
+  }
+
+  .black-box-subtitle {
+    left: 10vh;
+    font-size: 2vh;
+    font-weight: 400;
+    letter-spacing: 0.5vh;
+    line-height: 3.5vh;
+    text-align: center;
+    padding-top: 1vh;
+    width: 48vh;
+  }
+
+  .green-line {
+    top: 1vh;
+    left: 28vh;
+    width: 11vh;
+  }
+
+  .p-green {
+    left: 7vh;
+    font-size: 2vh;
+    font-weight: 200;
+    text-align: center;
+    width: 57vh;
+  }
+
+  .white-border-box {
+    border: 0.3vh solid #fff;
+    top: -9vh;
+    left: 13vh;
+    width: 44vh;
+    height: 14vh;
+    font-size: 2.5vh;
+    font-weight: 100;
+    letter-spacing: 0.3vh;
+    line-height: 3vh;
+    text-align: center;
+    padding-top: 0vh;
+  }
+
+  .p-white {
+    left: 15vh;
+    top: 15vh;
+    color: #fff;
+    font-size: 1.2vh;
+    font-weight: 300;
+    letter-spacing: 0.2vh;
+    text-align: center;
+    width: 40vh;
+  }
+
+  .contacts-email {
+    bottom: -6vh;
+    left: 20vh;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5vh;
+    width: 72%;
+  }
+
+  .contacts-phone {
+    position: relative;
+    bottom: -37vh;
+    left: 33vh;
+    color: #000;
+    font-size: 1.5vh;
+    font-weight: 200;
+    letter-spacing: 0.3vh;
+    text-align: center;
+    line-height: 1.2vh;
+    width: 20vh;
+  }
+
+  .adco-logo {
+      position: relative;
+      left: 43vh;
+      bottom: -37vh;
+      width: 5vh;
+  }
+
+  .council-logo {
+    position: relative;
+    left: 31vh;
+    bottom: -37vh;
+    width: 5vh;
+  }
+
 }
