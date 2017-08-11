@@ -2,6 +2,7 @@ body {
   background-color: #c4da43;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vh;
 }
 
 a {
@@ -16,6 +17,10 @@ header {
   width: 100% !important;
   height: 62vh;
   margin: 0 auto;
+}
+
+.container {
+  width: 75%;
 }
 
 .header-overlay {
@@ -55,8 +60,8 @@ header {
 
 .black-box {
   background-color: #000;
-  height: 39vh;
-  margin-top: 9%;
+  height: 41vh;
+  margin-top: 4%;
   z-index: 1;
 }
 
@@ -64,23 +69,22 @@ header {
   color: #c4da43;
   font-size: 3vh;
   font-weight: 300;
-  letter-spacing: 0.5vh;
-  line-height: 5vh;
-  padding-top: 1vh;
-  padding-right: 5%;
+  letter-spacing: 0.4vh;
+  line-height: 4vh;
+  padding-top: 1.5vh;
   width: 59%;
   margin-left: 6%;
+  padding-top: 4%;
 }
 
 .white-border-box {
   color: #fff;
   border: 0.5vh solid #fff;
-  margin-top: -29%;
+  margin-top: -23%;
   margin-right: -3%;
-  width: 38%;
-  height: 43%;
-  font-size: 2.5vh;
-  font-weight: 100;
+  width: 41vh;
+  height: auto;
+  font-size: 2vh;
   letter-spacing: 0.3vh;
   line-height: 3vh;
   text-align: center;
@@ -101,7 +105,6 @@ header {
   font-weight: 100;
   letter-spacing: 0.3vh;
   line-height: 2vh;
-  /* padding: 1vh 0; */
   margin-left: 6%;
 }
 
@@ -112,36 +115,37 @@ header {
   letter-spacing: 0.3vh;
   line-height: 2vh;
   padding-top: 2vh;
-  width: 100%;
+  width: 96%;
   text-decoration: none;
   margin-left: 6%;
+  padding-bottom: 3%;
 }
 
-footer .row {
-  margin-top: 24%;
-  margin-right: -15px;
-  padding-left: 6%;
+footer {
+  bottom: -10%;
+  width: 100%;
+  position: absolute;
 }
 
 .contacts-email {
   text-decoration: none;
   color: #000;
+  margin-left: 5.5%;
 }
 
 .adco-logo {
-  width: 5%;
+  width: 6vh;
   float: right;
   margin-top: -4%;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 .council-logo {
-  width: 6%;
+  width: 7vh;
   float: right;
   margin-top: -5%;
-  margin-right: 2%;
+  margin-right: 3%;
 }
-
 
 
 
@@ -175,7 +179,7 @@ footer .row {
 
   .black-box {
     background-color: #000;
-    height: 39vh;
+    height: 55vh;
     width: 95%;
     margin-top: 9%;
     z-index: 1;
@@ -184,13 +188,14 @@ footer .row {
 
   .black-box-subtitle {
     color: #c4da43;
-    font-size: 2.5vh;
+    font-size: 2vh;
     font-weight: 300;
     letter-spacing: 0.5vh;
-    line-height: 4vh;
-    padding-top: 3%;
+    line-height: 3vh;
     text-align: center;
     margin: 0 auto;
+    width: 74%;
+    display: block;
   }
 
   .green-line {
@@ -200,28 +205,83 @@ footer .row {
   }
 
   .p-green {
-    width: 80%;
+    width: 74%;
     color: #c4da43;
-    font-size: 1.8vh;
-    font-weight: 300;
+    font-size: 120%;
+    font-weight: 200;
     letter-spacing: 0.3vh;
     line-height: 2vh;
     text-align: center;
     margin: 0 auto;
-  }
+}
 
   .white-border-box {
-    margin: -64px auto;
+    margin: -72px auto;
     color: #fff;
     border: 0.5vh solid #fff;
     width: 55%;
-    height: 35%;
+    height: auto;
     font-size: 2.3vh;
     font-weight: 100;
     letter-spacing: 0.3vh;
     line-height: 3vh;
     text-align: center;
     padding: 3%;
+    float: unset;
+  }
+
+  .p-white {
+    color: #fff;
+    font-size: 1.4vh;
+    font-weight: 200;
+    letter-spacing: 0.3vh;
+    text-align: center;
+    line-height: 2vh;
+    padding-top: 2vh;
+    width: 72%;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    position: relative;
+    top: 34%;
+  }
+
+  footer {
+    text-align: center;
+    margin: 9% auto;
+  }
+
+  footer .row {
+    margin-top: 24%;
+    padding: 0;
+  }
+
+  .contacts-email {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1.5px;
+  }
+
+  .contacts-phone {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1.5px;
+  }
+
+  .bottom-logos {
+    display: inline-block;
+  }
+
+  .council-logo {
+    width: 6%;
+    float: none;
+    margin: 0 10px;
+  }
+
+  .adco-logo {
+      width: 5%;
+      float: none;
+      margin: 0 auto;
   }
 
 
